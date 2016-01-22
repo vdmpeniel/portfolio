@@ -1,0 +1,495 @@
+<html>
+    <head>   
+        <!-- BOOTSTRAP -->    
+        <link rel="stylesheet" href="bootstrap-3.3.6-dist/css/bootstrap.min.css">
+
+        <!-- Latest compiled JavaScript -->
+        <script src="bootstrap-3.3.6-dist/js/bootstrap.min.js"></script>    
+
+        <link rel="stylesheet" href="bootstrap-3.3.6-dist/css/bootstrap.min.css">
+
+        <!-- ANIMATECSS -->
+        <link rel="stylesheet" href="AnimateCSS/animate.css">   
+
+        <!-- JQUERY -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js" type="text/javascript"></script>
+
+        <!--GSAP TWEENMAX  (http://greensock.com/get-started-js#loading)-->
+        <script src="http://cdnjs.cloudflare.com/ajax/libs/gsap/1.18.0/TweenMax.min.js"></script> 
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.18.2/plugins/ScrollToPlugin.min.js"></script> 
+
+        <!-- WOWJS -->
+        <script src = "https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.js" type = "text/javascript"></script>
+        <script src = "https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js" type = "text/javascript"></script>
+        
+        
+        <!-- SCROLL MAGIC -->
+        <!-- que trabajo me dio encontrar estos cdns, tienen que estar en este orden -->    
+        <script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/ScrollMagic.min.js"></script>   
+        <script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/plugins/animation.gsap.min.js"></script>   
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/plugins/debug.addIndicators.min.js"></script>
+        
+        
+        <!-- FONT AWESOME -->
+        <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+
+
+        <!-- CUSTOM CSS -->
+        <link rel = "stylesheet" href = "CSS/custom.css" type = "text/css"/>
+
+        <!-- CUSTOM JS -->
+        <script src = "JS/main.js" type = "text/jscript"></script>
+        
+        
+        <!-- GOOGLE FONTS -->
+        <link href='https://fonts.googleapis.com/css?family=Fredericka+the+Great' rel='stylesheet' type='text/css'>
+        <link href='https://fonts.googleapis.com/css?family=Merriweather+Sans:400,800' rel='stylesheet' type='text/css'>
+        <link href='https://fonts.googleapis.com/css?family=Lato:400,300' rel='stylesheet' type='text/css'>
+
+    </head> 
+
+     <body>
+						   <!--LOADING-->
+         <div id = "LOADING">
+             <div id = "SPIN_BOX">
+                 <div id = "SPINNER0" class = "spinner"></div>
+                 <div id = "SPINNER1" class = "spinner"></div>
+                 <div id = "SPINNER2" class = "spinner"></div>
+             </div>
+         </div>
+        <!--LOADING END-->
+						
+						
+						
+						
+						
+						
+         <!-- PARALLAX -->
+         <div id = "PARALLAX" >
+             <div class = "far parallax">
+             </div>
+             <div class = "close parallax">
+             </div>
+         </div>
+         <!-- PARALLAX END-->
+         
+         
+         <!--NAV BAR-->
+         <nav class = "animated fadeInDownBig">
+             
+             
+             
+             <div id = "LOGO">
+                 <a class = "logo" href = "#">VIX Design </a>
+             </div>
+             
+             <div id = "MENU_CURSOR"></div>
+             
+             <div id = "NAVBAR">
+                 <a id = "nav3" href="#" class = "menuItem">CONTACT</a>                 
+                 <a id = "nav2" href="#" class = "menuItem">PORTFOLIO</a>
+                 <a id = "nav1" href="#" class = "menuItem">SERVICES</a>
+                 <a id = "nav0" href="#" class = "menuItem">ABOUT</a>
+             </div>
+             
+             
+             
+             
+             <button id = "COLLAPSED">
+                    <i class = "icon fa fa-bars"></i>
+             </button>
+             <div id = "ALT_NAVBAR">
+                 <a id = "a_nav0" href="#" class = "menuItem">ABOUT</a>
+                 <a id = "a_nav1" href="#" class = "menuItem">SERVICES</a>
+                 <a id = "a_nav2" href="#" class = "menuItem">PORTFOLIO</a>
+                 <a id = "a_nav3" href="#" class = "menuItem">CONTACT</a>                 
+                 
+                 
+                 
+             </div>
+         </nav>
+         
+         
+         <!--NAV BAR END-->
+
+
+
+        <!-- LANDING -->
+        <section id = "LANDING" class = "landing ">
+            <div>
+                <h1 class = " text-center wow fadeInDown" >WE ARE HERE TO HELP YOU GET TO THE STARS</h1>
+                <hr class = "text-center"/>
+            </div>
+            <button id= "boton_0" class = "boton boton_0">CONTINUE</button>
+        </section>
+
+        <!-- LANDING END -->
+
+
+
+
+        <!-- WELCOME -->
+
+        <section id = "ABOUT" class = "welcome">        
+            <h2  class = " text-center wow fadeInDown">Welcome to my portfolio!</h2>        
+            <h4 class = "text-center">Web Developer - Graphic Artist - User Experience Designer</h4>
+            <div>
+                <p class = "text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
+            </div>
+            <hr class = "text-center"/>
+            <button id= "boton_1" class = "boton boton_1">PORTFOLIO</button>
+        </section>
+        <!-- WELCOME END-->
+
+
+
+
+
+
+        <!-- SERVICES -->
+        <section id = "SERVICES">
+            <h3 class = "text-center wow fadeInDown">Our services</h3>
+            <hr class = "text-center"/>	
+            
+            <div class = "container">
+                <div class = "row">
+                    
+                    
+                    <div class = "item col-sm-6 ">
+                        <div class = "icon wow BounceIn">
+                            <div>
+                                <i class = "fa fa-desktop text-center "></i>
+                            </div>
+                        </div>
+                        <h4 class = "text-center">Design</h4>
+                        <div class = "descript">
+                            <p class = "text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
+                        </div>
+                    </div><!-- ITEM END -->
+                    
+                    
+                    
+                    <div class = "item col-sm-6 ">
+                        <div class = "icon wow BounceIn">
+                            <div>
+                                <i class = "fa fa-cogs text-center"></i>
+                            </div>
+                        </div>
+                        <h4 class = "text-center">Development</h4>
+                        <div class = "descript">
+                            <p class = "text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
+                        </div>
+                    </div><!-- ITEM END -->
+                    
+                    
+                    
+                </div><!-- ROW END -->
+            </div><!-- CONTAINER END -->
+            <hr class = "text-center"/>
+        </section>
+        <!-- SERVICES END -->    
+
+
+
+
+
+
+         
+        <!-- GALLERY -->
+        <section id = "PORTFOLIO" class = "Gallery">
+                <div class = "galleryContainer">
+                    <div class = "wow fadeIn row" > 
+
+
+
+                        <!-- item1 -->
+                        <div  class = "wow bounceIn column col-sm-4">                
+                            <a href="#">
+                                <div class = "box">   
+                                    <img src = "http://ldcss.s3-website-us-east-1.amazonaws.com/cms/asset/image/GraphicDesign.jpg1484871946.jpg" alt = "">
+                                    <div class = "galleryFocus">
+                                        <div> 
+                                           <i class = "text-center icon glyphicon glyphicon-upload"></i>
+                                        </div>  
+                                    </div>
+                                </div>
+                                <div class = "galleryTextBox">
+                                    <div class = "galleryText">
+                                        <h4 class =  "text-center">Random Quote</h4>
+                                        <p class = "text-justify">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam"</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <!-- item1 end -->
+
+
+
+
+                        <!-- item2 -->
+                        <div  class = "wow bounceIn column col-sm-4">                
+                            <a href="#">
+                                <div class = "box">   
+                                    <img src = "http://www.establish-fp7.eu/sites/default/files/research.jpg" alt = "">
+                                    <div class = "galleryFocus">
+                                        <div> 
+                                           <i class = "text-center icon glyphicon glyphicon-upload"></i>
+                                        </div>  
+                                    </div>
+                                </div>
+                                <div class = "galleryTextBox">
+                                    <div class = "galleryText">
+                                        <h4 class =  "text-center">JavaScript Calculator</h4>
+                                        <p class = "text-justify">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam"</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <!-- item2 end -->
+
+
+
+
+
+                        <!-- item3 -->
+                        <div  class = "wow bounceIn column col-sm-4">                
+                            <a href="#">
+                                <div class = "box">   
+                                    <img src = "http://www.logodesignlove.com/wp-content/uploads/2015/10/draplin-design-company-logo.jpg" alt = "">
+                                    <div class = "galleryFocus">
+                                        <div> 
+                                           <i class = "text-center icon glyphicon glyphicon-upload"></i>
+                                        </div>  
+                                    </div>
+                                </div>
+                                <div class = "galleryTextBox">
+                                    <div class = "galleryText">
+                                        <h4 class =  "text-center">Pomodoro Clock</h4>
+                                        <p class = "text-justify">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam"</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <!-- item3 end -->
+
+
+                </div><!-- row end -->
+
+
+
+
+
+
+
+
+
+                <div class = "wow fadeIn row" > 
+
+
+
+                        <!-- item1 -->
+                        <div  class = "wow bounceIn column col-sm-4">                
+                            <a href="#">
+                                <div class = "box">   
+                                    <img src = "http://ldcss.s3-website-us-east-1.amazonaws.com/cms/asset/image/GraphicDesign.jpg1484871946.jpg" alt = "">
+                                    <div class = "galleryFocus">
+                                        <div> 
+                                           <i class = "text-center icon glyphicon glyphicon-upload"></i>
+                                        </div>  
+                                    </div>
+                                </div>
+                                <div class = "galleryTextBox">
+                                    <div class = "galleryText">
+                                        <h4 class =  "text-center">Local Weather</h4>
+                                        <p class = "text-justify">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam"</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <!-- item1 end -->
+
+
+
+
+                        <!-- item2 -->
+                        <div  class = "wow bounceIn column col-sm-4">                
+                            <a href="#">
+                                <div class = "box">   
+                                    <img src = "http://www.establish-fp7.eu/sites/default/files/research.jpg" alt = "">
+                                    <div class = "galleryFocus">
+                                        <div> 
+                                           <i class = "text-center icon glyphicon glyphicon-upload"></i>
+                                        </div>  
+                                    </div>
+                                </div>
+                                <div class = "galleryTextBox">
+                                    <div class = "galleryText">
+                                        <h4 class =  "text-center">Camper News</h4>
+                                        <p class = "text-justify">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam"</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <!-- item2 end -->
+
+
+
+
+
+                        <!-- item3 -->
+                        <div  class = "wow bounceIn column col-sm-4">                
+                            <a href="#">
+                                <div class = "box">   
+                                    <img src = "http://www.logodesignlove.com/wp-content/uploads/2015/10/draplin-design-company-logo.jpg" alt = "">
+                                    <div class = "galleryFocus">
+                                        <div> 
+                                           <i class = "text-center icon glyphicon glyphicon-upload"></i>
+                                        </div>  
+                                    </div>
+                                </div>
+                                <div class = "galleryTextBox">
+                                    <div class = "galleryText">
+                                        <h4 class =  "text-center">Wikipedia Viewer</h4>
+                                        <p class = "text-justify">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam"</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+
+                        <!-- item3 end -->
+
+
+                </div><!-- row end --> 
+           </div><!-- galleryContainer end -->
+
+           <!-- BANDA INFERIOR -->    
+           <div class = "galleryEnd">
+               <h3 class = "wow fadeInDown text-center">This is kind of cool, isn't it?</h3>
+               <button id= "boton_2" class = "boton boton_2">CONTACT</button>  
+           </div> 
+           <!-- BANDA INFERIOR END -->
+        </section>
+        <!-- GALLERY END -->
+
+
+
+
+
+
+
+
+
+        <!-- CONTACT -->
+        <section id = "CONTACT">
+            <div class = " info row">  
+                <h3 class = "text-center wow fadeInDown">Contact</h3>
+                <hr class = "text-center"/>                
+                
+                <div class = "col-sm-8 methods infoSection">
+                    <div class = "wrap">
+                        <div id="MAP">
+                        
+                            <iframe class = "googleIframe" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3222.763984295603!2d-115.24032297111457!3d36.12360731175495!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c8c72a2acda09d%3A0x779021c040931c98!2s3585+Moraga+Dr%2C+Las+Vegas%2C+NV+89103!5e0!3m2!1sen!2sus!4v1452047100281" width="100%" height="100%" frameborder="0" style="border:0" allowfullscreen></iframe>
+                        </div>
+                        
+                        <div id = "CONTACT_ME">
+                            <div class = "item addr">
+                                <div class = "icon">
+                                    <i class = "fa fa-globe"></i>
+                                </div>
+                                <div class = "text ">
+                                    <h4>Address</h4>
+                                    <p>3585 Moraga Dr, las Vegas, NV, 89103</p>
+                                </div>                                
+                            </div> 
+                            
+                            <div class = "item">
+                                <div class = "icon">
+                                    <i class = "fa fa-phone"></i>
+                                </div>
+                                <div class = "text">
+                                    <h4>Phone</h4>
+                                    <p>7027394751</p>
+                                </div>                                
+                            </div>
+                            
+                            <div class = "item">
+                                <div class = "icon">
+                                    <i class = "fa fa-envelope"></i>
+                                </div>
+                                <div class = "text">
+                                    <h4>Email</h4>
+                                    <p>vdmpeniel@yahoo.es</p>
+                                </div>                                
+                            </div>
+                            
+                            <div class = "item">
+                                <div class = "icon">
+                                    <i class = "fa fa-skype"></i>
+                                </div>
+                                <div class = "text">
+                                    <h4>Skype</h4>
+                                    <p>vdmpeniel</p>
+                                </div>                                
+                            </div>
+                            
+                        </div>
+                        
+                    </div>                 
+                </div>
+                
+                <div id="SOCIAL" class = "col-sm-4 infoSection">
+                    <div class = "picture">
+                            <img src = "http://imageshack.com/a/img910/2566/HXEngt.jpg" alt="">
+                    </div>
+                    <h3 class = "text-center">Victor Diaz</h3>
+                    <p class = "text-center">Web Developer - Graphic Designer</p>
+                    <div class = "links">
+																					    <button>
+                        			  <a target="_blank" href = "https://www.linkedin.com/profile/view?id=AAMAABS_pgoBYYvum_dVby8dYg2azjeciVBrlII&trk=hp-identity-name">
+																														   <i class = "fa fa-linkedin"></i>
+																										   </a>
+                        </button>
+                        <button class = "wow BounceIn">
+                            <a target="_blank" href = "https://github.com/vdmpeniel">
+																													     <i class = "fa fa-github-alt"></i>
+																									   </a>
+                        </button>
+                        <button class = "wow BounceIn">
+                            <a target="_blank" href = "https://plus.google.com/u/0/113204746054885328552/posts/p/pub">
+																													    <i class = "fa fa-google-plus"></i>
+																									   </a>
+                        </button>
+                        <button class = "wow BounceIn">
+                            <a target="_blank" href = "https://www.facebook.com/vdmpeniel">
+																													    <i class = "fa fa-facebook"></i>
+																											 </a>
+                        </button>
+                        
+                    </div>
+                </div>
+
+            </div>
+            <div id = "contactEnd">
+                <button id= "boton_3" class = "boton boton_3">GO BACK UP</button>
+            </div>
+        <section/>        
+        <!-- CONTACT END-->
+
+
+
+
+
+
+
+
+        <!-- FOOTER -->
+            <footer id = "END">
+
+            </footer>      
+        <!-- FOOTER END -->
+        
+
+    </body>
+</html>
